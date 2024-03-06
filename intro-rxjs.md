@@ -66,6 +66,6 @@ And in order to be able to consume this data as an stream, we should subscribe t
 
 For subscribing to an observable, we should call to the method **subscribe()** of the observable and pass as param an object that defines three functions, one for handling the values emitted by the observable, a second for handling errors and the last one for defining what is going to happen after the observable completes.
 
-> Note: An observable can emit values until it completes and in some cases could emit an errors messages and we need to be prepare for handling them.
+> Note: An observable can emit values until it completes and in some cases could emit errors messages and we need to be prepare for handling them.
 
 The code for this laboratory could be executed from [stackblitz](https://stackblitz.com/edit/rxjs-kt8lgk?file=index.ts).
