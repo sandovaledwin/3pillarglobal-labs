@@ -58,7 +58,7 @@ Let's begin defining the data that we're going to use in this tutorial:
 
 ### filter()
 
-This operator allow us to extract from data stream (observables source) only the observables that pass the condition defined as param.
+This operator allow us to extract from a data stream (observables source) only the observables that pass the condition defined as param.
 
 In the next example, we're filtering only the products that have the category property with the laptop value:
 
